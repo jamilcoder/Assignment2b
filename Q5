@@ -1,0 +1,14 @@
+import java.util.*;
+public class Q2{
+	public static void main(String args[]) {
+		LinkedHashSet<Double> h = new LinkedHashSet<Double>();
+	     h.add(3.55);
+	     h.add(7.33);
+	     h.add(56.2);
+	     h.add(2.33);
+		
+		System.out.println(h);
+	
+	
+	}
+}
