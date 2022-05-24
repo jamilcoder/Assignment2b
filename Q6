@@ -1,0 +1,16 @@
+import java.util.HashMap;
+public class Q6 {
+   public static void main(String[] args) {
+          
+	   HashMap<String, Integer> hm = new HashMap<String, Integer>();
+
+             hm.put("Virat", new Integer(100));
+             hm.put("Dhoni", new Integer(98));
+             hm.put("Rohit", new Integer(56));
+             hm.put("Rahul", new Integer(78));
+             
+          
+             for(String key : hm.keySet()){
+                System.out.println(key + " scored :" + hm.get(key)+" runs");
+              }
+          }}
