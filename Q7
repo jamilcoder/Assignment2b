@@ -1,0 +1,23 @@
+import java.util.*;
+public class Q7 {
+   public static void main(String[] args) {
+   Scanner sc = new Scanner(System.in);       
+   TreeSet<Integer> ts = new TreeSet<Integer>();
+    System.out.println("Enter the numbers");
+     int num1 = sc.nextInt();   
+     int num2 = sc.nextInt();   
+     int num3 = sc.nextInt();   
+     int num4 = sc.nextInt();   
+     
+    
+     ts.add(num1);
+	   ts.add(num2);
+	   ts.add(num3);
+	   ts.add(num4);
+	
+	   System.out.println(ts); 
+	
+   
+   
+   }
+}
